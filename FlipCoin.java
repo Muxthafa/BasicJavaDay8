@@ -23,8 +23,8 @@ public class FlipCoin {
 				head++;			//increasing head side occurence
 			}
 		}
-		System.out.println("Percentage of Heads: "+(head/num)*100+"%");	//displaying the percentage
-		System.out.println("Percentage of Tails: "+(tail/num)*100+"%");
+		System.out.println("Percentage of Heads: "+(head/num)*100+"%");	//displaying the percentage of head
+		System.out.println("Percentage of Tails: "+(tail/num)*100+"%"); //displaying the percentage of tail
 	}
 
 }
