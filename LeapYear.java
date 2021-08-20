@@ -15,7 +15,7 @@ public class LeapYear {
 		{
 			if(num%100 == 0) {		//checking divisibility of year by 100
 				if(num%400 == 0)	//checking divisibility of year by 400
-					leap =true;
+					leap =true;		//boolean set to true
 				else
 					leap = false;
 			}else
