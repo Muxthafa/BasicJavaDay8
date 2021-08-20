@@ -12,7 +12,7 @@ public class Swap {
 		int num2=sc.nextInt();
 		System.out.println("Before swapping: "+num1+" "+num2);
 		sc.close();
-		int temp;		//declaring variable to store temporary value 
+		int temp;		//Declaring variable to store temporary value 
 		temp=num1;
 		num1=num2;
 		num2=temp;
