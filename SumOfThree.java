@@ -3,7 +3,11 @@ package com.corejava;
 import java.util.Scanner;
 
 public class SumOfThree {
-	public static void sumzero(int[] arr, int n) {
+	/* sumZero method is used to sum of three integers which adds to zero
+	 * @param arr is the first parameter and its an array
+	 * @param n is the second argument which defines number of elements
+	 */
+	public static void sumZero(int[] arr, int n) {
 		boolean found = false;
 		int count = 0;
 		for(int i=0; i<n-2;i++) {
@@ -29,12 +33,12 @@ public class SumOfThree {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the number of elements : ");
 		int num = sc.nextInt();
-		int[] a = new int[num];
+		int[] a = new int[num];		//initializing an array with size num
 		System.out.println("Enter the elements of the array :");
-		for(int i=0;i<num;i++) {
+		for(int i=0;i<num;i++) {	// iterating until the num-1, to take input from the terminal
 			a[i]=sc.nextInt();
 		}
-		sumzero(a,num);
+		sumZero(a,num);			//function call to sumZero
 		sc.close();
 	}
 
